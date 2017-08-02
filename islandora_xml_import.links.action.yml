@@ -1,0 +1,6 @@
+entity.xml_import_format.add_form:
+  route_name: entity.xml_import_format.add_form
+  title: 'Add XML Import Format'
+  appears_on:
+    - entity.xml_import_format.collection
+

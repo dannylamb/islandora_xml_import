@@ -1,0 +1,9 @@
+
+# XML Import Format menu items definition
+entity.xml_import_format.collection:
+  title: 'XML Import Format'
+  route_name: entity.xml_import_format.collection
+  description: 'Manage XML Import Formats'
+  parent: system.admin_structure
+  weight: 99
+

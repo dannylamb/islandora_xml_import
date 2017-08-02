@@ -1,0 +1,5 @@
+name: Islandora XML Import
+type: module
+description: Imports XML metadata using user-defined XPaths
+core: 8.x
+package: islandora

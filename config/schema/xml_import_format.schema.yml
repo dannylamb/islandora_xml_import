@@ -1,0 +1,21 @@
+islandora_xml_import.xml_import_format.*:
+  type: config_entity
+  label: 'XML Import Format config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string
+    xpaths:
+      type: sequence
+      sequence:
+        type: mapping
+        mapping:
+          field:
+            type: string
+          xpath:
+            type: string

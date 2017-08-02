@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains islandora_xml_import.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function islandora_xml_import_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the islandora_xml_import module.
+    case 'help.page.islandora_xml_import':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Imports XML metadata using user-defined XPaths') . '</p>';
+      return $output;
+
+    default:
+  }
+}

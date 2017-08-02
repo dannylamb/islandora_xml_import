@@ -1,0 +1,14 @@
+{
+  "name": "drupal/islandora_xml_import",
+  "type": "drupal-module",
+  "description": "Imports XML metadata using user-defined XPaths",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/islandora_xml_import",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/islandora_xml_import",
+    "source": "http://cgit.drupalcode.org/islandora_xml_import"
+  },
+  "require": { }
+}
